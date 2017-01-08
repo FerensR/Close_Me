@@ -1,0 +1,11 @@
+﻿Build started 09.01.2017 0:10:14.
+     1>Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Haha\Haha\Haha.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Haha\Release\Haha.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Haha.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Haha\Release\Haha.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\MyForm.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Haha.vcxproj -> C:\Users\Roman\Documents\Visual Studio 2013\Projects\Haha\Release\Haha.exe
+     1>Done Building Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Haha\Haha\Haha.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.52
